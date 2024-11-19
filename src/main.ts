@@ -71,5 +71,5 @@ async function downloadMods(): Promise<void> {
   console.log("Downloading mods");
   await cleanDirectory(OUTPUT_DIR + 'mods');
   downloadFile('https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js', OUTPUT_DIR + 'mods/CookieMonster.js');
-  downloadFile('https://raw.githubusercontent.com/Ancyker/Crustulum/refs/heads/master/Crustulum.js', OUTPUT_DIR + 'mods/Crustulum.js');
+  downloadFile('https://cdn.jsdelivr.net/gh/Ancyker/Crustulum/Crustulum.js', OUTPUT_DIR + 'mods/Crustulum.js');
 }
