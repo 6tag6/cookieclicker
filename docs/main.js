@@ -16879,6 +16879,7 @@ window.onload=function()
 
 								// cyrillbrito: Load Cookie Monster mod
 								Game.LoadMod('mods/CookieMonster.js');
+								Game.LoadMod('mods/Crustulum.js');
 							});
 						}
 					}
